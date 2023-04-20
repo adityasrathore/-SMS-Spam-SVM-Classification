@@ -1,6 +1,6 @@
 # SMS Spam SVM Classification
 
-Support Vector Machine (SVM) classifier is trained to classify SMS messages as either spam or ham. The dataset is preprocessed and the text data is converted to numerical data using TfidfVectorizer. The hyperparameters of the SVM model are tuned using GridSearchCV with a 10-fold stratified cross-validation. The best hyperparameters and the best accuracy score are printed. The code was modified to include the 'epsilon' and 'kernel' parameters as requested.
+<p>Support Vector Machine (SVM) classifier is trained to classify SMS messages as either spam or ham. The dataset is preprocessed and the text data is converted to numerical data using TfidfVectorizer. The hyperparameters of the SVM model are tuned using GridSearchCV with a 10-fold stratified cross-validation. The best hyperparameters and the best accuracy score are printed. The code was modified to include the 'epsilon' and 'kernel' parameters as requested.</p>
 
 Info:
 1) kernel specifies the kernel type to be used in the algorithm, and 'rbf' and 'sigmoid' are two possible options.
